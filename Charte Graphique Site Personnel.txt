@@ -1,0 +1,3 @@
+Police:Times New Roman
+Taille de la police: 12
+Couleur de la police: noire
