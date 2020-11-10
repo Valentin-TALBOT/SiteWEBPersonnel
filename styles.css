@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 header {
 	float: left;
 }
@@ -17,7 +23,6 @@ img {
 	height: 50px;
 }
 
-.main-à-propos-de {
+.main-a-propos-de {
 	clear: both;
-	float: center;
 }
