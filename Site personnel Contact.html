@@ -17,10 +17,26 @@
 			<p><a href="#Formation">Formation</a></p>
 		</nav>
 		<main>
+			<form action="/page-de-soumission" method="post">
+				<div>
+					<label for="nom">Nom : (Champ obligatoire)</label>
+					<input type="text" id="nom">
+				</div>
+					<label for="mail">e-mail : (Champ obligatoire)</label>
+					<input type="email" id="mail" name="user_mail">
+				</div>
+				<div>
+					<label for="msg">Message : (Champ obligatoire)</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</div>
+				<div>
+					<button type="submit">Envoyer le message</button>
+				</div>
+			</form>
 		</main>
 		<aside>
 			<a href="https://github.com/Valentin-TALBOT">Lien vers ma page GitHub</a>
-			<img src="30b150cd489202db131009ac9540cec0.png" alt="Logo de Github"/>
+			<img src="Assets/30b150cd489202db131009ac9540cec0.png" alt="Logo de Github"/>
 		</aside>
 	</body>
 </html>

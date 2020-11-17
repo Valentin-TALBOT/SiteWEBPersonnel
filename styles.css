@@ -12,6 +12,10 @@ nav {
 	float: right;
 }
 
+main {
+	clear: both;
+}
+
 aside {
 	clear: both;
 	float: right;
