@@ -19,15 +19,15 @@
 		<main>
 			<form action="/page-de-soumission" method="post">
 				<div>
-					<label for="nom">Nom : (Champ obligatoire)</label>
-					<input type="text" id="nom">
+					<label for="nom">Nom : </label>
+					<input type="text" id="nom" required="Champ obligatoire>
 				</div>
-					<label for="mail">e-mail : (Champ obligatoire)</label>
-					<input type="email" id="mail" name="user_mail">
+					<label for="mail">e-mail : </label>
+					<input type="email" id="mail" name="user_mail" required="Champ obligatoire">
 				</div>
 				<div>
-					<label for="msg">Message : (Champ obligatoire)</label>
-					<textarea id="msg" name="user_message"></textarea>
+					<label for="msg">Message :  </label>
+					<textarea id="msg" name="user_message" required="Champ obligatoire"></textarea>
 				</div>
 				<div>
 					<button type="submit">Envoyer le message</button>
