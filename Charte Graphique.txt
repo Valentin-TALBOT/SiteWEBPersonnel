@@ -1,3 +1,4 @@
 Police: Roboto
 Taille de la police: 12
 Couleur de la police: noire
+Couleur de l'arrière-plan : #D8D8D8 (Gris Clair)
